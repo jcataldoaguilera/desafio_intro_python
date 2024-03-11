@@ -3,8 +3,11 @@ La velocidad de escape de un planeta se define como la mínima velocidad necesar
 salir de un planeta venciendo la gravedad.
 La velocidad de escape se calcula mediante la siguiente fórmula:
 ## 𝑉𝑒 = √2𝑔𝑟
+
 Ve : corresponde a la Velocidad de Escape en [m/s].
+
 g: corresponde a la constante gravitacional en [m/s2].
+
 r: Corresponde al radio del planeta en [m].
 
 # Actividad 2 - Rentabilidad
@@ -14,6 +17,9 @@ usuarios pueda alcanzar. La manera en la que se medirá esto es calculando las u
 proyecto. Estas utilidades se pueden calcular mediante la siguiente fórmula:
 ## 𝑈𝑡𝑖𝑙𝑖𝑑𝑎𝑑𝑒𝑠 = 𝑃 ∗ 𝑈 − 𝐺𝑇
 Donde:
+
 P: Precio de Suscripción
+
 U: Número de Usuarios
+
 GT: Gastos Totales
