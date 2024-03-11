@@ -26,4 +26,4 @@ Ur = round(Ur,2)
 
 # Imprimir resultados
 print(f"La rentabilidad es: ${UT}")
-print(f"La razón entre las utilidades acutales y las del año anterior es {Ur}")
+print(f"La razón entre las utilidades actuales y las del año anterior es {Ur}")
