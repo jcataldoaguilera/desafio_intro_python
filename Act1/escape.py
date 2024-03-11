@@ -7,7 +7,7 @@
 # Librerias
 from math import sqrt
 
-# Definicion y reciclaje de Variables
+# Definicion de Variables
 radio = input("Ingrese el radio en Kilometros: ")
 cons_g = input("Ingrese la constante g: ")
 # Definimos data type de las variables
