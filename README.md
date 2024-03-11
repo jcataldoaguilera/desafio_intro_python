@@ -7,6 +7,8 @@ Ve : corresponde a la Velocidad de Escape en [m/s].
 g: corresponde a la constante gravitacional en [m/s2].
 r: Corresponde al radio del planeta en [m].
 
+#
+#
 # Actividad 2 - Rentabilidad
 Un emprendedor quiere crear una app que provea un servicio de entrega de comida para 
 mascotas. Este proyecto tiene buenos pronósticos, pero su éxito dependerá de cuántos 
