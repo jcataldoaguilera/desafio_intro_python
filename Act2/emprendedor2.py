@@ -6,14 +6,16 @@
 
 # Definicion de variables
 P = input("Ingrese precio de suscripción $: ")
-U = input("Ingrese número de usuarios: ")
+Unorm = input("Ingrese número de usuarios normales: ")
+Uprem = input("Ingrese número de usuarios premium: ")
 GT = input("Ingrese el gasto total $: ")
 # Definimos el data type
 P = int(P)
-U = int(U)
+Unorm = int(Unorm)
+Uprem = int(Uprem)
 GT = int(GT)
 # Calculamos
-UT = P*U-GT
+UT = P*(Unorm+(Uprem*1.5))-GT
 
 # Imprimir resultados
 print(f"La rentabilidad es: ${UT}")
