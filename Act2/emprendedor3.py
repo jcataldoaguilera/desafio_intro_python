@@ -8,16 +8,10 @@
 print("!!! Los valores ingresados deben ser enteros y sin separador de millares ¡¡¡")
 
 # Definicion de variables
-P = input("Ingrese precio de suscripción $: ")
-U = input("Ingrese número de usuarios: ")
-GT = input("Ingrese el gasto total $: ")
-Upas = input("Ingrese las utilidades del año anterior $: ")
-
-# Definimos el data type
-P = int(P)
-U = int(U)
-GT = int(GT)
-Upas = int(Upas)
+P = int(input("Ingrese precio de suscripción $: "))
+U = int(input("Ingrese número de usuarios: "))
+GT = int(input("Ingrese el gasto total $: "))
+Upas = int(input("Ingrese las utilidades del año anterior $: "))
 
 # Calculamos
 UT = P*U-GT

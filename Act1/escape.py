@@ -8,11 +8,9 @@
 from math import sqrt
 
 # Definicion de Variables
-radio = input("Ingrese el radio en Kilometros: ")
-cons_g = input("Ingrese la constante g: ")
-# Definimos data type de las variables
-radio = int(radio)
-cons_g = float(cons_g)
+radio = int(input("Ingrese el radio en Kilometros: "))
+cons_g = float(input("Ingrese la constante g: "))
+
 # A nivel de formula, el radio se expresa en metros, pero en el input se nos solicita ingresar el radio en Kilometros,
 # por lo que multiplicamos el input por 1000 para transformar la unidad.
 escape = sqrt(2*cons_g*(1000*radio))
