@@ -1,3 +1,9 @@
+# Info
+# Autor: Juan Cataldo [jcataldoaguilera@gmail.com]
+# Fecha: 2024-03-01
+# RLAB-23-02-09-0044-2
+#
+
 # Librerias
 from math import sqrt
 
