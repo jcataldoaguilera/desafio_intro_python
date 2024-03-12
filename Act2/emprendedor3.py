@@ -13,9 +13,15 @@ U = int(input("Ingrese número de usuarios: "))
 GT = int(input("Ingrese el gasto total $: "))
 Upas = int(input("Ingrese las utilidades del año anterior $: "))
 
+# Validación de variable
+if Upas > 0 :
+    Ur = UT/Upas
+else:
+    print("Valor invalido")
+    
+
 # Calculamos
 UT = P*U-GT
-Ur = UT/Upas
 Ur = round(Ur,2)
 
 # Imprimir resultados
