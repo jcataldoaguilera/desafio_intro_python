@@ -15,15 +15,11 @@ Upas = int(input("Ingrese las utilidades del año anterior $: "))
 
 # Validación de variable
 if Upas > 0 :
+    UT = P*U-GT
     Ur = UT/Upas
+    # Imprimir resultados
+    print(f"La rentabilidad es: ${UT}")
+    print(f"La razón entre las utilidades actuales y las del año anterior es {round(Ur,2)}")
 else:
-    print("Valor invalido")
+    print("Las utilidades del año anterior no pueden ser iguales a 0")
     
-
-# Calculamos
-UT = P*U-GT
-Ur = round(Ur,2)
-
-# Imprimir resultados
-print(f"La rentabilidad es: ${UT}")
-print(f"La razón entre las utilidades actuales y las del año anterior es {Ur}")
